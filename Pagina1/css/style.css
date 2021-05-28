@@ -1,0 +1,389 @@
+body{
+    font-family: 'Mate SC', serif;
+    background: -webkit-radial-gradient(center, #d6d6d6 , rgb(196, 133, 18));												
+}
+
+header{
+    width: 960px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-size: 15px;
+}
+
+#logo{
+    width: 220px;
+    height: 70px;
+    float: left; 
+    object-fit: cover;
+}
+
+#botonera_principal{
+    width: 400px;
+    height: 40px;
+    float: right;     
+    margin-top: 20px;
+}
+
+#botonera_principal ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    float: right;  
+}
+
+#botonera_principal ul li{
+    display: inline; 
+}
+
+#botonera_principal ul li a{
+    display: inline-block;
+    padding: 10px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#botonera_principal ul li a:hover{
+    color:#000; 
+    background-color: rgb(223, 198, 128);   
+}
+
+#botonera_principal ul li a:active {
+    color: rgb(65, 65, 65);
+}
+
+#botonera_principal ul li a:link { 
+    color: rgb(0, 0, 0); 
+} 
+
+#contenido_principal{
+    width: 960px;
+    height: 800px;	 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+#imagen1{
+    width: 350px;
+    height: 300px;
+    background-color: #919463;
+    float: left;
+    margin-bottom: 10px;
+    background-image: url(../img/estatua-zeus.jpg);
+    background-size: cover;
+}
+
+#presentacion{
+    width: 600px;
+    height: 300px;
+    float: right;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-image: url(../img/fondo.jpg);
+    background-size: 600px 300px;
+}
+
+#tituloarticulo{
+    font-size: 40px;
+}
+
+#contenido_articulo{
+    font-size: 20px;
+}
+
+#texto_contenido{
+    width: 250px;
+    height: 300px;
+    background-image: url(../img/fondo.jpg);
+    background-size: 250px 300px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contenido_segundo{
+    font-size: 100%;
+}
+
+#imagen2{
+    width: 440px;
+    height: 300px;
+    background-color: #b37062;
+    float: left;
+    margin-bottom: 10px;
+    background-image: url(../img/panteon.jpg);
+    background-size: contain;
+}
+
+#destacado{
+    width: 250px;
+    height: 300px;
+    background-image: url(../img/fondo2.jpg);
+    background-size: contain;;
+    float: right;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#contenido_destacado{
+    font-size: 100%;
+}
+
+#complementario{
+    width: 960px;
+    height: 180px;
+    clear: both;
+}
+
+#imagen_aside{
+    height: 180px;
+    width: 960px;
+    object-fit: cover;
+}
+
+footer{
+    width: 960px;
+    height: 50px;
+    background-color: #a08c67;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: #FFFFFF
+}
+
+.contactos li {
+    display: inline-block;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;   
+}
+  
+  .contactos a{
+    color: white;
+    text-decoration: none;
+}
+
+  .contactos li a:hover{
+    color: rgb(73, 73, 73);
+}
+  
+  .contactos a:visited{
+    color: inherit;
+}
+
+@media all and (min-width: 600px) and (max-width:1023px){
+   
+    header{
+        width: 580px;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    p{
+        font-size: 80%;
+    }
+    
+    #logo{
+        display: inline-block; 
+        clear: both;
+        margin-right: auto;
+        margin-left: auto;
+        width: 220px;
+        text-align: baseline;
+    }    
+   
+    #botonera_principal{
+        width: 300px;
+    }
+    #botonera_principal ul li a{
+        display: inline-block;
+        padding: 10px;
+        color: #000000;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    #contenido_principal{
+        width: 580px;
+        height: 800px;	 
+    }
+    
+    #imagen1{
+        width: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #presentacion{
+        width: 370px;
+        height: 300px;
+    }
+    
+    #texto_contenido{
+        width: 285px;
+        height: 200px;
+    }
+    
+    #contenido_segundo{
+        font-size: 85%;
+    }
+    
+    #imagen2{
+        width: 285px;
+        height: 200px;
+        background-size: contain;
+    }
+    
+    #destacado{
+        width: 580px;
+        height: 135px;
+    }
+    
+    #contenido_destacado{
+        font-size: 100%;
+    }
+    
+    #complementario{
+        width: 580px;
+        height: 130px;
+    }
+    
+    #imagen_aside{
+        width: 580px;
+        height: 130px;   
+    }
+    
+    footer{
+        width: 580px;
+    }   
+    
+    #redes{
+        width: 250px;
+    }
+}
+
+@media all and (max-width:599px){   
+    header{
+        width: 90%;
+        height: auto;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+    
+    #logo{
+        width: 100%;
+        height: auto;
+        float: none; 
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    #botonera_principal{
+        width: 100%;
+        height: auto;
+        float: none; 
+        margin-top: 20px;
+        align-items: center;
+    }
+     
+    #botonera_principal ul{
+        margin:0;
+        padding: 0;
+        list-style-type: none;
+        float: none;  
+    }
+    
+    #botonera_principal ul li{
+        display: block; 
+    }
+    
+    #botonera_principal ul li a{
+        display: block; 
+        width: 100%;
+        font-weight: bold;
+        text-decoration: none;
+        box-sizing: border-box;
+        text-align: center;
+        margin-bottom: 5px;
+        border-style: solid;
+        border-color: #a08c67;
+    
+    }
+    
+    #contenido_principal{
+        width: 90%;
+        height: auto;	 
+    }
+    
+    #imagen1{
+        width: 100%;
+        height: 400px;
+        float: none;
+        object-fit: contain;
+    }
+    
+    #presentacion{
+        width: 100%;
+        height: auto; 
+        float: none;
+    }  
+        
+    #texto_contenido{
+        width: 100%;
+        height: auto; 
+        float: none;
+        margin-right: 0;
+    }
+    
+    #imagen2{
+        width: 100%;
+        height: 200px;
+        float: none;
+        margin-bottom: 10px;
+        background-position: center;
+    }
+    
+    #destacado{
+        width: 100%;
+        height: auto; 
+        float: none;
+    }
+
+    #contenido_destacado{
+        font-size: 90%;
+    }
+    
+    #complementario{
+        display: none;
+    }
+    
+    footer{
+        width: 90%;
+        height: auto; 
+        float: none;
+    }
+    
+    .contactos li {
+        display: block;
+        align-items: center;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;   
+      }
+
+} 
